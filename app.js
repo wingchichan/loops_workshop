@@ -26,3 +26,28 @@ while (keepLoopingAgain === false) {
   keepLoopingAgain = Math.random() < 0.1;
   randomNumber++;
 }
+
+// Looping over Arrays
+
+const foods = ["dumplings", "pizza", "saag", "roast dinner", "cake"];
+
+// for loop
+// for (let food = 0; food < foods.length; food++) {
+//   console.log(foods[food]);
+// }
+
+// for...of loop
+// for (let food of foods) {
+//   console.log(food);
+// }
+
+// forEach loop
+// foods.forEach(function (food) {
+//   console.log(food);
+// });
+
+const colours = ["red", "yellow", "green", "blue", "orange"];
+
+colours.forEach(function (colour) {
+  console.log(colour);
+});
